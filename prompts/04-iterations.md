@@ -31,4 +31,4 @@ A check of every page showed the lockbox and door codes were already not on the 
 
 ### What I kept, changed or rejected
 - **Kept — codes travel only in the platform welcome message**, never on the site. A forwarded link reveals nothing that opens the property, at no cost and with no password for guests to manage.
-- **Next — apply the same rule to the Wi-Fi password** and update the footer note, which still says the guide contains access codes.
+- **Next — audit every page against the same rule** and update the footer note so it describes what the guide contains today.
