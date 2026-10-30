@@ -28,6 +28,14 @@ A curated guide, not an interactive Q&A tool: it gathers the essential informati
 
 The site is static, password-protected and hosted on Netlify with a custom domain.
 
+## Screens
+
+Phone-width captures of the production guide. The host phone number, the property address and personal names are masked; pages with access codes and Wi-Fi details are not shown.
+
+![Landing page, the icon menu organized by moment of the stay, and the tourist guide](docs/screenshots/landing-and-tourist-guide.jpg)
+
+![Check-in page, house rules, and the tourist guide with category filters, search and a place card](docs/screenshots/check-in-rules-places.jpg)
+
 ## Key product decisions
 
 | Decision | Alternative considered | Why |
