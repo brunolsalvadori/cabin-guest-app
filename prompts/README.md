@@ -22,9 +22,9 @@ This folder documents how I directed AI during the build. Each file covers one s
 
 | File | Step |
 |---|---|
-| 01-discovery.md | Framing the problem and the users |
-| 02-content.md | Selecting the essential and most-asked information |
-| 03-build.md | First build |
-| 04-iterations.md | Corrections and refinements |
+| [01-discovery.md](01-discovery.md) | Framing the problem and the users |
+| [02-content.md](02-content.md) | Selecting the essential and most-asked information |
+| [03-build.md](03-build.md) | First build |
+| [04-iterations.md](04-iterations.md) | Corrections and refinements |
 
-Files are added as each step is documented.
+Steps 01 to 03, and part 1 of step 04, are reconstructed from my project notes: their prompts are summarized, not quoted. Where a prompt or decision is quoted, it is marked as such.
