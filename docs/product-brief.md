@@ -19,7 +19,7 @@ Guests of a short-term rental cabin need reliable basic information at each mome
 | Must | Readable and usable on a phone screen with a slow connection |
 | Must | Arrival, check-in, house rules and emergency contacts on the landing page |
 | Must | Content covers the questions guests ask most often |
-| Must | Access restricted to booked guests |
+| Must | No access codes on the site; codes reach booked guests through the platform welcome message |
 | Should | Tourist guide reachable in one tap from the landing page |
 | Should | Content editable by the host without a developer |
 | Could | English version |
@@ -29,7 +29,7 @@ Guests of a short-term rental cabin need reliable basic information at each mome
 
 - Given a guest on a phone, when they open the link, then they find check-in steps without scrolling past more than one screen.
 - Given a guest on the landing page, when they tap the tourist guide icon, then the tourist guide opens and offers a way back.
-- Given someone without the password, when they open the link, then no guide content is shown.
+- Given someone who receives a forwarded link, when they open any page, then they find no lockbox, door or alarm code.
 
 ## Success metrics
 See the README section "How I would measure success".

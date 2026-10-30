@@ -4,7 +4,7 @@ Product case: a mobile-first web guide that puts the most relevant, most frequen
 
 **My role:** Product Owner and builder — problem framing, requirements, content curation, AI-assisted development, launch.
 
-> The production guide is private and password-protected because it contains access information for booked guests. This repository documents the product work: the problem, the decisions, the requirements and the prompts that drove the build. Screenshots have sensitive information redacted.
+> The production guide is shared only with booked guests, by link, and publishes no access codes: lockbox and door codes go in the platform welcome message. This repository documents the product work: the problem, the decisions, the requirements and the prompts that drove the build. Screenshots have sensitive information redacted.
 
 ## The problem
 
@@ -26,11 +26,11 @@ A curated guide, not an interactive Q&A tool: it gathers the essential informati
 - **Hospitality guide (landing page):** everything needed to arrive and stay well.
 - **Tourist guide (one tap away):** a curated guide to the region, linked from the landing page as an icon.
 
-The site is static, password-protected and hosted on Netlify with a custom domain.
+The site is static and hosted on Netlify. It is shared by link in the booking messages and holds no secrets: the lockbox and door codes are sent separately in the platform welcome message, so a forwarded link exposes nothing that opens the property.
 
 ## Screens
 
-Phone-width captures of the production guide. The host phone number, the property address and personal names are masked; pages with access codes and Wi-Fi details are not shown.
+Phone-width captures of the production guide. The host phone number, the property address and personal names are masked; the access and Wi-Fi pages are not shown.
 
 ![Landing page, the icon menu organized by moment of the stay, and the tourist guide](docs/screenshots/landing-and-tourist-guide.jpg)
 
@@ -42,8 +42,8 @@ Phone-width captures of the production guide. The host phone number, the propert
 |---|---|---|
 | Content curated from the most frequent guest questions | Exhaustive manual of the house | Guests read what they need, not everything |
 | Hospitality guide is the landing page | Tourist guide first | Guests open the link to solve a stay problem; tourism is a secondary job |
-| One site behind one password | Two separate sites | One link to send in the booking message, one password to remember |
-| Password protection | Fully public site | The guide contains access information meant only for booked guests |
+| One site, one link | Two separate sites | One link to send in the booking message, with the tourist guide one tap away |
+| Access codes kept out of the site, sent in the platform welcome message | Password-protecting the whole site | No hosting cost and no password for guests to manage; a leaked link reveals nothing that opens the property |
 | Static HTML, no backend | App builder or CMS | Zero running cost, fast on rural mobile connections, nothing to maintain |
 | Mobile-first layout | Desktop-first | Guests read it on their phones, often on the road |
 
@@ -53,7 +53,7 @@ I built the guide with Claude as the engineering copilot. I acted as the Product
 
 The [prompts/](prompts/) folder documents that process step by step: the goal of each prompt, what came back, and what I kept or changed and why. Requirements are in [docs/product-brief.md](docs/product-brief.md).
 
-**Stack:** HTML, CSS, vanilla JavaScript · Netlify (hosting + password protection) · custom domain.
+**Stack:** HTML, CSS, vanilla JavaScript · Netlify (hosting).
 
 ## How I would measure success
 
